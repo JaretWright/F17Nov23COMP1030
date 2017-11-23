@@ -40,6 +40,8 @@ public class ValidationExample {
     /**
      * This method will return true, if the temperature given
      * is invalid.  Valid range is -95 to +60
+     * @param temperature integer in the range of -95 to 60 
+     * @return  true if the temp is invalid
      */
     public static boolean invalidTemp(int temperature)
     {
